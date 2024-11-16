@@ -6,7 +6,7 @@
   <title>Learning Bootstrap v5 with sass</title>
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/fontawesome.css">
-  <link rel="stylesheet" href="./assets/vendors/css/glightbox.min.css">
+  <link rel="stylesheet" href="./assets/vendors/css/glightbox shadow-sm.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -71,9 +71,9 @@
         </div>
         <!-- Start the content for the video -->
         <div class="col-md-6 intros text-end">
-          <div class="video-box">
+          <div class="video-box shadow-sm">
             <img src="./images/arts/intro-section-illustration.png" alt="Video illustration" class="img-fluid">
-            <a href="#" class="position-absolute top-50 start-50 translate-middle glightbox">
+            <a href="#" class="position-absolute top-50 start-50 translate-middle glightbox shadow-sm">
               <span>
                 <i class="fas fa-play-circle"></i>
               </span>
@@ -84,13 +84,63 @@
         </div>
       </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L40,149.3C80,139,160,117,240,106.7C320,96,400,96,480,128C560,160,640,224,720,208C800,192,880,96,960,90.7C1040,85,1120,171,1200,197.3C1280,224,1360,192,1400,176L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L30,170.7C60,181,120,203,180,186.7C240,171,300,117,360,117.3C420,117,480,171,540,176C600,181,660,139,720,133.3C780,128,840,160,900,197.3C960,235,1020,277,1080,272C1140,267,1200,213,1260,176C1320,139,1380,117,1410,106.7L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+    
+
   </section>
 
-  <script src="./assets/vendors/js/glightbox.min.js"></script>
+  <!-- Start the companies section -->
+  <section id="companies" class="companies">
+    <div class="container">
+      <div class="row text-center">
+        <h4 class="fw-bold lead mb-3">Truested by companies like</h4>
+        <div class="heading-line mb-5"></div>
+      </div>
+    </div>
+    <!-- Start the companies content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="companies__logo-box shadow-sm">
+            <a href="https://www.maluchosupermercados.com.br/" target="_blank">
+              <img src="./images/companies/company-1.png" alt="Malucho Supermercados logo" title="Malucho Supermercados logo" class="img-fluid"></div>
+            </a>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="companies__logo-box shadow-sm">
+            <a href="https://www.instagram.com/pei_smmc/" target="_blank">
+              <img src="./images/companies/company-2.png" alt="E.E. Profª Selma Maria Martins Cunha logo" title="E.E. Profª Selma Maria Martins Cunha logo" class="img-fluid"></div>
+            </a>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="companies__logo-box shadow-sm">
+            <a href="https://saocaetanodosul.osbrasil.org.br/" target="_blank">
+              <img src="./images/companies/company-3.png" alt="Observatório São Caetano do Sul logo" title="Observatório São Caetano do Sul logo" class="img-fluid"></div>
+            </a>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="companies__logo-box shadow-sm">
+            <a href="https://cybermissions.org/" target="_blank">
+              <img src="./images/companies/company-4.png" alt="Cybermission logo" title="Cybermission logo" class="img-fluid"></div>
+            </a>
+        </div>
+        <!-- <div class="col-md-4 col-lg-2">
+          <div class="companies__logo-box shadow-sm">
+            <img src="./images/companies/company-5.png" alt="Company 5 logo" title="Company 5 logo" class="img-fluid"></div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies__logo-box shadow-sm">
+            <img src="./images/companies/company-6.png" alt="Company 6 logo" title="Company 6 logo" class="img-fluid"></div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <script src="./assets/vendors/js/glightbox shadow-sm.min.js"></script>
 
   <script type="text/javascript">
-      const lightbox = GLightbox({
+      const lightbox shadow-sm = GLightbox shadow-sm({
         'href': 'https://www.youtube.com/watch?v=o2IMBksV19s',
         'type': 'video',
         'source': 'youtube', //vimeo, youtube or local

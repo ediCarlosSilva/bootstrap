@@ -8,7 +8,7 @@ https://getbootstrap.com/docs/5.3/utilities/position/
 
 ## time stopped
 
-stoped at 1h47m26s
+stoped at 2h07m39s
 
 ## websites for good resources
 
