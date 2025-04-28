@@ -6,7 +6,7 @@
   <title>Learning Bootstrap v5 with sass</title>
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/fontawesome.css">
-  <link rel="stylesheet" href="./assets/vendors/css/glightbox shadow-sm.min.css">
+  <link rel="stylesheet" href="./assets/vendors/css/glightbox.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -41,7 +41,7 @@
             <a class="nav-link" href="#">contact</a>
           </li>
         </ul>
-        <button type="button" class="rounded-pill btn-rounded">+55 15 98832-6239
+        <button type="button" class="rounded-pill btn-rounded"><a href="https://wa.me/+5515988326239" target="_blank">+55 15 98832-6239</a>
           <span>
             <i class="fas fa-phone-alt"></i>
           </span>
@@ -60,7 +60,7 @@
           <h1 class="display-2">
             <span class="display-2--intro">Hey!, I'm <br>Edi Carlos</span>
             <span class="display-2--description lh-base">
-              this is my portfolio created with bootstrap v5 and with a passion for learning. 
+              this is my portfolio created with bootstrap v5 and with a love for learning. 
             </span>
           </h1>
           <button type="button" class="rounded-pill btn-rounded">Thanks for appreciating
@@ -137,16 +137,117 @@
     </div>
   </section>
 
-  <script src="./assets/vendors/js/glightbox shadow-sm.min.js"></script>
+  <!-- START SECTION 4 - THE SERVICES -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold">Our Services</h1>
+        <div class="heading-line mb-1"></div>
+      </div>
+
+
+    <!-- START THE DESCRIPTION CONTENT -->
+
+      <div class="row pt-2 pb-2 mt-0 mb-3">
+        <div class="col-md-6 border-right">
+          <div class="bg-white p-3">
+            <h2 class="fw-bold text-capitalize text-center">
+              our services range from initial design to deployment anywhere anytime
+            </h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="bg-white p-4 text-sta">
+            <p class="fw-light">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- START THE CONTENT FOR THE SERVICES -->
+    <div class="container">
+      <!-- START THE MARKETING CONTENT -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block fas fa-paper-plane"></div>
+            <h3 class="display-3--title mt-1">Marketing</h3>
+            <p class="lh-lg">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore cumque quasi vero architecto doloremque ullam sed voluptas quod perspiciatis facilis, repellat assumenda esse odit nisi consequuntur? Earum, corrupti.
+            </p>
+            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <span>
+              <i class="fas fa-arrow-right"></i>
+            </span>
+          </button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+          <div class="services__pic">
+            <img src="./images/services/service-1.png" alt="marketing illustration" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <!-- START THE WEB DEVELOPMENT CONTENT -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+          <div class="services__pic">
+            <img src="./images/services/service-2.png" alt="Web Development illustration" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block fas fa-code"></div>
+            <h3 class="display-3--title mt-1">Web Devlopment</h3>
+            <p class="lh-lg">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore cumque quasi vero architecto doloremque ullam sed voluptas quod perspiciatis facilis, repellat assumenda esse odit nisi consequuntur? Earum, corrupti.
+            </p>
+            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <span>
+              <i class="fas fa-arrow-right"></i>
+            </span>
+          </button>
+          </div>
+        </div>
+      </div>
+      <!-- START THE CLOUD HOSTING CONTENT -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block fas fa-cloud-upload-alt"></div>
+            <h3 class="display-3--title mt-1">Cloud hosting</h3>
+            <p class="lh-lg">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore cumque quasi vero architecto doloremque ullam sed voluptas quod perspiciatis facilis, repellat assumenda esse odit nisi consequuntur? Earum, corrupti.
+            </p>
+            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <span>
+              <i class="fas fa-arrow-right"></i>
+            </span>
+          </button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+          <div class="services__pic">
+            <img src="./images/services/service-3.png" alt="Cloud hosting illustration" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./assets/vendors/js/glightbox.min.js"></script>
 
   <script type="text/javascript">
-      const lightbox shadow-sm = GLightbox shadow-sm({
-        'href': 'https://www.youtube.com/watch?v=o2IMBksV19s',
-        'type': 'video',
-        'source': 'youtube', //vimeo, youtube or local
-        'width': 900,
-        'autoplayVideos': true,
-      });
+
+      const lightbox = GLightbox({
+      'href': 'https://www.youtube.com/watch?v=o2IMBksV19s',
+      'type': 'video',
+      'source': 'youtube', //vimeo, youtube or local
+      'width': 900,
+      'autoplayVideos': true,
+});
 
   </script>
 
