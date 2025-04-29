@@ -10,8 +10,6 @@ https://getbootstrap.com/docs/5.3/utilities/position/
 
 ⭐️ Course Contents ⭐️
 
-⌨️ (2:11:11) Part 7: The Services Section
-⌨️ (2:41:20) Part 8: Testimonials Section
 ⌨️ (3:11:10) Part 9: The FAQ Section
 ⌨️ (3:20:13) Part 10: The Portfolio Section
 ⌨️ (3:45:21) Part 11: Getting Started Section
