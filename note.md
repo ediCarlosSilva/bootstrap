@@ -10,8 +10,7 @@ https://getbootstrap.com/docs/5.3/utilities/position/
 
 ⭐️ Course Contents ⭐️
 
-⌨️ (3:20:13) Part 10: The Portfolio Section
-⌨️ (3:45:21) Part 11: Getting Started Section
+⌨️ (3:45:21) Part 11: Getting Started Section  
 ⌨️ (4:10:24) Part 12: The Footer Section
 
 ## websites for good resources
