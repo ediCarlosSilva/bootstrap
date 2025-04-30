@@ -8,9 +8,10 @@ https://getbootstrap.com/docs/5.3/utilities/position/
 
 ## time stopped
 
+3h58m53s
+
 ⭐️ Course Contents ⭐️
 
-⌨️ (3:45:21) Part 11: Getting Started Section  
 ⌨️ (4:10:24) Part 12: The Footer Section
 
 ## websites for good resources
