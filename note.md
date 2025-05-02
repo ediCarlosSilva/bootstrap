@@ -8,7 +8,7 @@ https://getbootstrap.com/docs/5.3/utilities/position/
 
 ## time stopped
 
-3h58m53s
+4h47m41s
 
 ⭐️ Course Contents ⭐️
 
@@ -18,15 +18,19 @@ https://getbootstrap.com/docs/5.3/utilities/position/
 
 ### Good website to get beatiful illustrations
 
-- https://www.manypixels.co/gallery
-- https://pixels.market/illustrations
+- [https://www.manypixels.co/gallery](https://www.manypixels.co/gallery)
+- [https://pixels.market/illustrations](https://pixels.market/illustrations)
 
 ### website to get waves effects
 
-- [https://getwaves.io/](https://getwaves.io/)
+- [getwaves](https://getwaves.io/)
 
 ### free javascript lightbox for video popup
 
 - [https://biati-digital.github.io/glightbox/](https://biati-digital.github.io/glightbox/)
 - npm package:
   - [https://www.npmjs.com/package/glightbox](https://www.npmjs.com/package/glightbox)
+
+### free svg icons
+
+- [tablericons](https://tablericons.com/)
